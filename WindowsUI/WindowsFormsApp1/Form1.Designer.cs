@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(91, 37);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(196, 31);
             this.textBox1.TabIndex = 0;
@@ -82,9 +82,9 @@ namespace WindowsFormsApp1
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(217, 151);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 25);
+            this.label3.Size = new System.Drawing.Size(65, 25);
             this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.label3.Text = "result";
             // 
             // button1
             // 
@@ -108,7 +108,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

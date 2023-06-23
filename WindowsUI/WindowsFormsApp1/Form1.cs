@@ -19,10 +19,14 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //consume HealthMgr class library directly
             HealthMgr.BmiCalculator bc = new HealthMgr.BmiCalculator();
+            //get value from UI
             bc.Height = int.Parse(this.textBox1.Text);
             bc.Weight = int.Parse(this.textBox2.Text);
+            //calculate
             var BMI = bc.Calculate();
+            //display result
             this.label3.Text = BMI.ToString();
         }
     }
